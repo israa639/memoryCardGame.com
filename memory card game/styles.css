@@ -1,0 +1,53 @@
+
+img{
+
+    width: 20vw;
+    height:20vh;
+    border-radius: 10px;
+  box-shadow: 5px 0px 10px 0 gainsboro;
+background-color:lightgray;
+
+
+}
+
+#headerText,#scoreText{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: center;
+    text-align:center;
+   margin: 1vh 1vw;
+    font-size: 30px;
+    
+  
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    
+    justify-content: center;
+    
+   
+   gap:10px;
+  
+  }
+
+#replayBtn
+  {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    
+    
+  }
+  button{
+    background-color: black;
+    border-radius: 20px;
+    width: 100px;
+    
+  }
+ p{
+  color: white;
+ }
